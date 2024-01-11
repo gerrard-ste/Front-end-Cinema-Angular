@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@1,300&display=swap');
+.hero{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    position: relative;
+    height: 100vh;
+}
+.section .text{
+    font-size: 50px;
+}
+
+.section .text button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: .5rem ;
+    background-color: rgb(238, 236, 132);
+    border: 0px solid;
+}
+.section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/back.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.spons .content img{
+    width: 10%;
+    height: auto;
+}
+.spons{
+    margin-bottom: 20px;
+}
+.cards-list {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto; 
+    flex-wrap:wrap;
+    padding: 100px;
+}
+.w3-col {
+    flex: 0 0 calc(25% - 10px); 
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    
+    cursor: pointer;
+    transition: 0.4s; 
+}
+.card_image{
+    width: auto;
+    height: 400px;
+}
+.card_image img {
+    width: 100%;
+    height: 100%;
+}
+.card_title {
+    text-align: center;
+    padding: 10px;
+}
+.w3-col:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
